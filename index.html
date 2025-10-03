@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IDF Auto-École | Permis B & Conduite accompagnée à Fosses (95)</title>
+  <meta name="description" content="IDF Auto-École à Fosses (95) : Permis B traditionnel ou AAC, code en ligne, suivi personnalisé. À 100 m de la gare Survilliers-Fosses (RER D).">
+  <meta name="format-detection" content="telephone=no">
+  <meta property="og:title" content="IDF Auto-École | Permis B & AAC à Fosses (95)">
+  <meta property="og:description" content="Forfait permis B ou AAC à 1199 €. Équipe pédagogue, 5★ Google, proche gare Survilliers-Fosses.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+
+  <!-- Schema.org (DrivingSchool) avec note globale -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "DrivingSchool",
+    "name": "IDF Auto-École",
+    "image": "assets/cover.jpg",
+    "priceRange": "€€",
+    "telephone": "+33 6 64 00 76 37",
+    "email": "info@idfautoecole.fr",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "12 Place Denis Papin",
+      "addressLocality": "Fosses",
+      "postalCode": "95470",
+      "addressCountry": "FR"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 49.0927, "longitude": 2.5156 },
+    "url": "https://www.exemple.com",
+    "areaServed": "Île-de-France",
+    "description": "Permis B traditionnel ou conduite accompagnée (AAC), code en ligne, suivi personnalisé. À ~100 m de la gare Survilliers-Fosses (RER D).",
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "100" }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#"><img src="assets/logo2.png" alt="IDF Auto-École" height="40" width="160"></a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="burger" aria-controls="menu" aria-expanded="false" aria-label="Ouvrir le menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="menu" class="menu">
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#tarif">Tarif</a></li>
+          <li><a href="#offres">Formations</a></li>
+          <li><a href="#contact" class="btn btn--sm">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- 1) Bienvenue + Points forts + Carte + Prix + Badge 5★ -->
+    <section class="hero hero--map-first">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="kicker">Bienvenue chez</p>
+          <h1>IDF Auto-École — Fosses (95)</h1>
+          <ul class="strengths">
+            <li>À <strong>100 m</strong> de la gare <strong>Survilliers-Fosses (RER D)</strong></li>
+            <li>Équipe <strong>à l'écoute</strong>, <strong>pédagogue</strong> et <strong>suivi personnalisé</strong></li>
+            <li>Places de conduite <strong>disponibles</strong></li>
+          </ul>
+
+          <div class="trust">
+            <div class="stars" aria-label="Note Google 5 étoiles">
+              <span>5,0/5,0 ★★★★★ </span> sur Google Maps
+            </div>
+            <a class="link" href="#avis">Voir les avis</a>
+          </div>
+        </div>
+
+        <div class="map-wrap hero-map" aria-label="Carte Google Maps">
+          <iframe title="Carte : IDF Auto-École" loading="lazy" allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=idfautoecole&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2) Avis (carrousel) -->
+    <section id="avis" class="section section--tight">
+      <div class="container">
+        <header class="section-header">
+          <h2>Ils nous font confiance</h2>
+          <p>Extraits d’avis Google.</p>
+        </header>
+
+        <div class="reviews-controls">
+          <button class="rev-btn" data-dir="prev" aria-label="Avis précédent">‹</button>
+          <button class="rev-btn" data-dir="next" aria-label="Avis suivant">›</button>
+        </div>
+
+        <div class="reviews-track" id="reviewsTrack" aria-live="polite">
+          <noscript>Activez JavaScript pour afficher les avis.</noscript>
+        </div>
+
+        <p class="center">
+          <a class="link" id="googleReviewsLink" target="_blank" rel="noopener">Voir tous les avis sur Google</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- 3) Tarif -->
+    <section id="tarif" class="section alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Tarif clair</h2>
+          <p>Transparents et sans surprise.</p>
+        </header>
+
+        <div class="pricing one">
+          <div class="price-card">
+            <h3>Forfait Permis B / AAC</h3>
+            <p class="price"><span>1199</span> €</p>
+            <ul class="list">
+              <li>20 leçons de 55 minutes</li>
+              <li>Kit pédagogique (Application <strong>KOPILOTE</strong>)</li>
+              <li>1 accompagnement à l’examen pratique</li>
+              <li>Frais d’inscription 1 an (3 ans si AAC)</li>
+            </ul>
+            <div class="cta-row">
+              <a class="btn" href="#contact">Nous contacter</a>
+              <a class="btn btn--secondary" href="tel:+33134098799">01&nbsp;34&nbsp;09&nbsp;87&nbsp;99</a>
+              <a class="btn btn--secondary" href="tel:+33664007637">06&nbsp;64&nbsp;00&nbsp;76&nbsp;37</a>
+            </div>
+          </div>
+        </div>
+
+        <details class="details">
+          <summary>Infos complémentaires</summary>
+          <ul class="list">
+            <li>Planning par échange <strong>email / téléphone</strong></li>
+            <li>Suivi par le même moniteur jusqu’à l’examen</li>
+            <li>Possibilité d’ajouter des heures selon besoins</li>
+          </ul>
+        </details>
+      </div>
+    </section>
+
+    <!-- 4) Formations -->
+    <section id="offres" class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Formations</h2>
+          <p>Choisissez votre parcours.</p>
+        </header>
+
+        <div class="cards three">
+          <article class="card">
+            <h3>Permis B – Traditionnel</h3>
+            <ul class="list">
+              <li>20 leçons (55 min)</li>
+              <li>Suivi personnalisé</li>
+              <li>Accompagnement examen</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Conduite accompagnée (AAC)</h3>
+            <ul class="list">
+              <li>Dès 15 ans</li>
+              <li>Forfait valable 3 ans</li>
+              <li>Moniteur dédié</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Code de la route</h3>
+            <ul class="list">
+              <li>Internet : <strong>20 €</strong></li>
+              <li>Entraînements ciblés</li>
+              <li>Suivi des progrès</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) Contact -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Contact & inscription</h2>
+          <p>Un devis rapide ? Une question ?</p>
+        </header>
+
+        <div class="contact-grid">
+          <form class="form" id="contactForm" action="mailto:info@idfautoecole.fr" method="post" enctype="text/plain">
+            <div class="field"><label for="nom">Nom</label><input id="nom" name="Nom" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="email">E-mail</label><input id="email" name="Email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="message">Message</label><textarea id="message" name="Message" rows="4" required></textarea></div>
+            <div class="field"><label for="telephone">Téléphone (optionnel)</label><input id="telephone" name="Téléphone" type="tel" autocomplete="tel"></div>
+            <button type="submit" class="btn">Envoyer</button>
+            <p class="form-note">En envoyant, vous acceptez d’être recontacté(e).</p>
+          </form>
+
+          <div class="contact-card">
+            <h3>IDF Auto-École</h3>
+            <address>12 Place Denis Papin<br>95470 Fosses</address>
+            <p>Tél : <a href="tel:+33134098799">01&nbsp;34&nbsp;09&nbsp;87&nbsp;99</a> / <a href="tel:+33664007637">06&nbsp;64&nbsp;00&nbsp;76&nbsp;37</a><br>
+            E-mail : <a href="mailto:info@idfautoecole.fr">info@idfautoecole.fr</a></p>
+            <p>Agrément : <strong>E2309500210</strong></p>
+            <a class="btn btn--secondary" href="#tarif">Voir le tarif</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> IDF Auto-École — Tous droits réservés</p>
+      <nav aria-label="Bas de page">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
